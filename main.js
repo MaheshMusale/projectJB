@@ -7,7 +7,7 @@ var app=express();
 app.set("view engine","ejs");
 
 app.use(index);
-app.use(express.static("G:/Database/projectJB" + '/public'));
+app.use(express.static('public'));
 
 
 app.listen(process.env.PORT, process.env.IP, function(){
